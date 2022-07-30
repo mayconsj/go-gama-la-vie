@@ -1,1 +1,4 @@
-# go-gama-la-vie
+# Start API
+```
+docker compose up
+```
