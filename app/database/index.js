@@ -7,7 +7,7 @@ const DB_PASS = process.env.MYSQL_ROOT_PASSWORD;
 const DB_CONFIG = {
   dialect: process.env.MYSQL_DIALECT,
   host: process.env.MYSQL_HOST,
-  port: process.env.MYSQL_PORT,
+  port: process.env.MYSQL_LOCAL_PORT,
 };
 
 let db = {};
